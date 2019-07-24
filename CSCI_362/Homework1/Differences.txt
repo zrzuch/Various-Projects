@@ -1,0 +1,14 @@
+FileName	: Differences.txt
+Author		: Zachary Zuch
+Course		: CSCI 362
+Assignment	: Lab 1
+
+1) C++ has multiple ways to pass parameters while Java just has pass-by-value.
+2) C++ doesn't require classes to write a simplistic program.
+3) C++ has struct, unions, classes, and arrays to offer simplistic data structures while Java only 
+	has arrays and classes.
+4) C++ has preprocessor directives, and the closest thing that Java has is imports which doesn't 
+	offer anyother functionality.
+5) C++ applies encapsulation for a list of functions and variables all at once while Java requires
+	encapsulation to be set for every variable and method.
+6, 7, 8) Mozilla, MySQL, and JVM are written in C++ for optimal performance and flexibility.
