@@ -1,0 +1,122 @@
+Main.o: Main.cpp ShaderProgram.h Matrix4.h Vector4.h Matrix3.h Vector3.h \
+ Mesh.h Transform.h Camera.h KeyBuffer.h MouseState.h
+
+ShaderProgram.h:
+
+Matrix4.h:
+
+Vector4.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+Mesh.h:
+
+Transform.h:
+
+Camera.h:
+
+KeyBuffer.h:
+
+MouseState.h:
+Math.o: Math.cpp Math.h Vector3.h
+
+Math.h:
+
+Vector3.h:
+Vector3.o: Vector3.cpp Vector3.h Math.h
+
+Vector3.h:
+
+Math.h:
+Vector4.o: Vector4.cpp Vector4.h
+
+Vector4.h:
+Matrix3.o: Matrix3.cpp Matrix3.h Vector3.h Math.h
+
+Matrix3.h:
+
+Vector3.h:
+
+Math.h:
+Matrix4.o: Matrix4.cpp Math.h Vector3.h Matrix4.h Vector4.h
+
+Math.h:
+
+Vector3.h:
+
+Matrix4.h:
+
+Vector4.h:
+Transform.o: Transform.cpp Math.h Vector3.h Transform.h Matrix4.h \
+ Vector4.h Matrix3.h
+
+Math.h:
+
+Vector3.h:
+
+Transform.h:
+
+Matrix4.h:
+
+Vector4.h:
+
+Matrix3.h:
+ShaderProgram.o: ShaderProgram.cpp ShaderProgram.h Matrix4.h Vector4.h \
+ Matrix3.h Vector3.h
+
+ShaderProgram.h:
+
+Matrix4.h:
+
+Vector4.h:
+
+Matrix3.h:
+
+Vector3.h:
+Mesh.o: Mesh.cpp Mesh.h ShaderProgram.h Matrix4.h Vector4.h Matrix3.h \
+ Vector3.h Transform.h Camera.h AiScene.h
+
+Mesh.h:
+
+ShaderProgram.h:
+
+Matrix4.h:
+
+Vector4.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+Transform.h:
+
+Camera.h:
+
+AiScene.h:
+AiScene.o: AiScene.cpp AiScene.h
+
+AiScene.h:
+Camera.o: Camera.cpp Camera.h Transform.h Matrix4.h Vector4.h Matrix3.h \
+ Vector3.h Math.h
+
+Camera.h:
+
+Transform.h:
+
+Matrix4.h:
+
+Vector4.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+Math.h:
+KeyBuffer.o: KeyBuffer.cpp KeyBuffer.h
+
+KeyBuffer.h:
+MouseState.o: MouseState.cpp MouseState.h
+
+MouseState.h:

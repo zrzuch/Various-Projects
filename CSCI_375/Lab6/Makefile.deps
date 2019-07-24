@@ -1,0 +1,78 @@
+Main.o: Main.cpp ShaderProgram.h Mesh.h Camera.h Transform.h Matrix3.h \
+ Vector3.h KeyBuffer.h
+
+ShaderProgram.h:
+
+Mesh.h:
+
+Camera.h:
+
+Transform.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+KeyBuffer.h:
+Math.o: Math.cpp Math.h Vector3.h
+
+Math.h:
+
+Vector3.h:
+Vector3.o: Vector3.cpp Vector3.h Math.h
+
+Vector3.h:
+
+Math.h:
+Matrix3.o: Matrix3.cpp Matrix3.h Vector3.h Math.h
+
+Matrix3.h:
+
+Vector3.h:
+
+Math.h:
+Transform.o: Transform.cpp Matrix3.h Vector3.h Transform.h Math.h
+
+Matrix3.h:
+
+Vector3.h:
+
+Transform.h:
+
+Math.h:
+ShaderProgram.o: ShaderProgram.cpp ShaderProgram.h
+
+ShaderProgram.h:
+Mesh.o: Mesh.cpp ShaderProgram.h Mesh.h Camera.h Transform.h Matrix3.h \
+ Vector3.h AiScene.h
+
+ShaderProgram.h:
+
+Mesh.h:
+
+Camera.h:
+
+Transform.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+AiScene.h:
+AiScene.o: AiScene.cpp AiScene.h
+
+AiScene.h:
+Camera.o: Camera.cpp Camera.h Transform.h Matrix3.h Vector3.h Math.h
+
+Camera.h:
+
+Transform.h:
+
+Matrix3.h:
+
+Vector3.h:
+
+Math.h:
+KeyBuffer.o: KeyBuffer.cpp KeyBuffer.h
+
+KeyBuffer.h:
